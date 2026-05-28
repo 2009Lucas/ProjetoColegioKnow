@@ -1,0 +1,50 @@
+body{
+  margin:0;
+  background:#0f172a;
+  color:white;
+  font-family:Arial;
+  padding:40px;
+}
+
+.admin-box{
+  max-width:1000px;
+  margin:auto;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+  margin-top:30px;
+}
+
+th,
+td{
+  padding:15px;
+  border:1px solid #334155;
+}
+
+th{
+  background:#4f46e5;
+}
+
+tr:nth-child(even){
+  background:#1e293b;
+}
+#search{
+  width:100%;
+  padding:15px;
+  margin-top:20px;
+  border:none;
+  border-radius:10px;
+  background:#1e293b;
+  color:white;
+}
+#clear{
+  margin-top:15px;
+  padding:12px 20px;
+  border:none;
+  border-radius:10px;
+  background:#dc2626;
+  color:white;
+  cursor:pointer;
+}
