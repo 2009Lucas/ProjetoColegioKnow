@@ -1,34 +1,31 @@
 # ProjetoColegioKnow
-# Portal Institucional Integrado — Colégio KNOW
 
 ## Startup Challenge 2026
 
-Projeto desenvolvido para o desafio tecnológico do Colégio Técnico KNOW, com foco na criação de uma plataforma institucional moderna utilizando exclusivamente:
+Projeto desenvolvido como parte de um desafio educacional de desenvolvimento web, com foco na criação de uma plataforma institucional interativa utilizando apenas:
 
-* HTML5
-* CSS3
-* JavaScript Vanilla
-
----
-
-# Objetivo do Projeto
-
-Desenvolver um ecossistema digital integrado para o Colégio KNOW, reunindo:
-
-* Portal institucional
-* Captação de leads
-* Gamificação
-* Orientação vocacional
-* Painel administrativo
-
-Tudo dentro de uma experiência visual moderna, responsiva e interativa.
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
 
 ---
 
-# Estrutura do Projeto
+# 📌 Objetivo do Projeto
+
+O objetivo é simular um portal institucional para o Colégio Técnico KNOW, integrando diferentes funcionalidades em uma única experiência digital, incluindo:
+
+- apresentação institucional
+- interação com usuários
+- gamificação
+- captação de dados
+- painel administrativo
+
+---
+
+# 📁 Estrutura do Projeto
 
 ```plaintext
-colegio-know/
+ProjetoColegioKnow/
 │
 ├── hub.html
 ├── quiz.html
@@ -42,151 +39,95 @@ colegio-know/
 │   └── img/
 │
 └── README.md
-```
+⚙️ Funcionalidades do Sistema
+🚀 1. Quiz Profissional
 
----
+Sistema interativo que simula um teste vocacional.
 
-# Funcionalidades
+Funcionalidades:
+perguntas com múltipla escolha
+cálculo de perfil baseado em pontuação
+resultado final com recomendação de curso
+armazenamento do último resultado no localStorage
+Conceitos utilizados:
+arrays e objetos
+condicionais (if/else)
+manipulação do DOM
+eventos de clique
+🎁 2. Raspadinha Interativa
 
-## 1. Quiz Profissão do Futuro
+Sistema de gamificação para simular sorteios e engajamento.
 
-Sistema interativo de orientação vocacional.
+Funcionalidades:
+geração aleatória de prêmios
+bloqueio de múltiplas tentativas usando localStorage
+exibição dinâmica do prêmio
+Conceitos utilizados:
+Math.random()
+eventos de clique
+manipulação de DOM
+armazenamento local
+📚 3. Cadastro de Leads
 
-### Recursos:
+Formulário para simular captação de alunos interessados.
 
-* Perguntas dinâmicas
-* Sistema de pontuação
-* Resultado personalizado
-* Persistência via localStorage
-* Interface animada
+Funcionalidades:
+validação de campos obrigatórios
+validação de e-mail
+armazenamento dos dados no localStorage
+Conceitos utilizados:
+eventos de formulário
+validação com JavaScript
+uso de regex para e-mail
+JSON + localStorage
+📋 4. Painel Administrativo
 
-### Conceitos aplicados:
+Interface para visualização dos dados cadastrados.
 
-* Arrays
-* Objetos
-* Manipulação do DOM
-* Eventos
-* Estruturas condicionais
+Funcionalidades:
+exibição de alunos cadastrados em tabela
+busca/pesquisa por nome
+opção de limpar dados armazenados
+Conceitos utilizados:
+renderização dinâmica com JavaScript
+filter()
+manipulação de arrays
+createElement()
+🎨 Interface e Experiência
 
----
+O projeto utiliza um estilo visual moderno inspirado em interfaces de tecnologia educacional, com:
 
-## 2. Raspadinha Gamificada
+cores em gradiente
+efeito glassmorphism
+cards interativos
+botões com hover
+layout responsivo básico
+💾 Armazenamento de Dados
 
-Ferramenta de engajamento para eventos e campanhas institucionais.
+O projeto utiliza o localStorage do navegador para:
 
-### Recursos:
+salvar resultados do quiz
+controlar participação na raspadinha
+armazenar cadastros de alunos
+permitir consulta no painel administrativo
+▶️ Como Executar o Projeto
+Baixe ou clone o repositório
+Abra a pasta no VS Code
+Execute com a extensão Live Server (ou abra o hub.html)
+Navegue pelo sistema através do menu principal
+🧠 Tecnologias Utilizadas
+HTML5
+CSS3
+JavaScript Vanilla
 
-* Sorteio aleatório de brindes
-* Efeito visual de revelação
-* Bloqueio de múltiplas tentativas
-* Persistência local
+Sem uso de frameworks ou bibliotecas externas.
 
-### Conceitos aplicados:
+🏫 Contexto Acadêmico
 
-* Math.random()
-* Eventos de clique
-* Manipulação de classes CSS
-* localStorage
+Este projeto foi desenvolvido como simulação de uma startup educacional em um desafio de desenvolvimento web, com foco em:
 
----
-
-## 3. Cadastro Inteligente de Leads
-
-Sistema de captação de potenciais alunos.
-
-### Recursos:
-
-* Validação de formulário
-* Verificação de e-mail
-* Armazenamento local
-* Cadastro persistente
-
-### Conceitos aplicados:
-
-* Eventos de formulário
-* Regex
-* JSON
-* localStorage
-
----
-
-## 4. Painel Administrativo
-
-Área de visualização dos leads cadastrados.
-
-### Recursos:
-
-* Tabela dinâmica
-* Pesquisa em tempo real
-* Limpeza de dados
-* Atualização automática
-
-### Conceitos aplicados:
-
-* Renderização dinâmica
-* Arrays
-* filter()
-* createElement()
-
----
-
-# Diferenciais do Projeto
-
-* Interface moderna em estilo EdTech
-* Layout responsivo
-* Design com Glassmorphism
-* Navegação integrada
-* Organização modular
-* Código limpo e comentado
-* Experiência visual interativa
-
----
-
-# Persistência de Dados
-
-Os dados da aplicação são armazenados utilizando o `localStorage` do navegador, permitindo:
-
-* Histórico do quiz
-* Controle da raspadinha
-* Cadastro persistente de alunos
-
----
-
-# Como Executar
-
-1. Baixe os arquivos do projeto
-2. Abra a pasta no VS Code
-3. Execute utilizando a extensão Live Server
-4. Navegue pelo sistema através do `hub.html`
-
----
-
-# Equipe Desenvolvedora
-
-Startup: ____________________
-
-Integrantes:
-
-* ---
-* ---
-* ---
-
----
-
-# Considerações Técnicas
-
-Todo o sistema foi desenvolvido sem frameworks externos, priorizando:
-
-* lógica de programação
-* manipulação manual do DOM
-* organização de código
-* boas práticas de front-end
-
----
-
-# Status do Projeto
-
-✅ Funcional
-✅ Responsivo
-✅ Integrado
-✅ Pronto para apresentação
+lógica de programação
+organização de código
+manipulação do DOM
+interação com usuário
+persistência local de dados
